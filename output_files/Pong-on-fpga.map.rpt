@@ -1,0 +1,760 @@
+Analysis & Synthesis report for Pong-on-fpga
+Fri Jul 11 13:08:29 2025
+Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Port Connectivity Checks: "matriz:matrix|flip_t:ff0"
+ 12. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft24"
+ 13. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft23"
+ 14. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft22"
+ 15. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft21"
+ 16. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft20"
+ 17. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft19"
+ 18. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft18"
+ 19. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft17"
+ 20. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft16"
+ 21. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft15"
+ 22. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft14"
+ 23. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft13"
+ 24. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft12"
+ 25. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft11"
+ 26. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft10"
+ 27. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft9"
+ 28. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft8"
+ 29. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft7"
+ 30. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft6"
+ 31. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft5"
+ 32. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft4"
+ 33. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft3"
+ 34. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft2"
+ 35. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft1"
+ 36. Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft0"
+ 37. Port Connectivity Checks: "divisor_de_frequencia:comb_4"
+ 38. Port Connectivity Checks: "dbouncer:db1|flip_t:flipt1"
+ 39. Post-Synthesis Netlist Statistics for Top Partition
+ 40. Elapsed Time Per Partition
+ 41. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Jul 11 13:08:29 2025           ;
+; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
+; Revision Name                      ; Pong-on-fpga                                    ;
+; Top-level Entity Name              ; main                                            ;
+; Family                             ; Cyclone IV E                                    ;
+; Total logic elements               ; 93                                              ;
+;     Total combinational functions  ; 87                                              ;
+;     Dedicated logic registers      ; 63                                              ;
+; Total registers                    ; 63                                              ;
+; Total pins                         ; 34                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE30F23C7       ;                    ;
+; Top-level entity name                                            ; main               ; Pong-on-fpga       ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                         ;
++-------------------------------------+-----------------+------------------------+---------------------------------------------------------------------+---------+
+; File Name with User-Entered Path    ; Used in Netlist ; File Type              ; File Name with Absolute Path                                        ; Library ;
++-------------------------------------+-----------------+------------------------+---------------------------------------------------------------------+---------+
+; aux_modules/count_3b.v              ; yes             ; User Verilog HDL File  ; /home/kake/Documentos/jogo-pong/aux_modules/count_3b.v              ;         ;
+; aux_modules/shift_register_7b.v     ; yes             ; User Verilog HDL File  ; /home/kake/Documentos/jogo-pong/aux_modules/shift_register_7b.v     ;         ;
+; aux_modules/dbouncer.v              ; yes             ; User Verilog HDL File  ; /home/kake/Documentos/jogo-pong/aux_modules/dbouncer.v              ;         ;
+; aux_modules/divisor_de_frequencia.v ; yes             ; User Verilog HDL File  ; /home/kake/Documentos/jogo-pong/aux_modules/divisor_de_frequencia.v ;         ;
+; aux_modules/flip_t.v                ; yes             ; User Verilog HDL File  ; /home/kake/Documentos/jogo-pong/aux_modules/flip_t.v                ;         ;
+; aux_modules/flip_d.v                ; yes             ; User Verilog HDL File  ; /home/kake/Documentos/jogo-pong/aux_modules/flip_d.v                ;         ;
+; main.v                              ; yes             ; User Verilog HDL File  ; /home/kake/Documentos/jogo-pong/main.v                              ;         ;
+; aux_modules/matriz.v                ; yes             ; User Verilog HDL File  ; /home/kake/Documentos/jogo-pong/aux_modules/matriz.v                ;         ;
++-------------------------------------+-----------------+------------------------+---------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                               ;
++---------------------------------------------+---------------------------------------------+
+; Resource                                    ; Usage                                       ;
++---------------------------------------------+---------------------------------------------+
+; Estimated Total logic elements              ; 93                                          ;
+;                                             ;                                             ;
+; Total combinational functions               ; 87                                          ;
+; Logic element usage by number of LUT inputs ;                                             ;
+;     -- 4 input functions                    ; 20                                          ;
+;     -- 3 input functions                    ; 25                                          ;
+;     -- <=2 input functions                  ; 42                                          ;
+;                                             ;                                             ;
+; Logic elements by mode                      ;                                             ;
+;     -- normal mode                          ; 87                                          ;
+;     -- arithmetic mode                      ; 0                                           ;
+;                                             ;                                             ;
+; Total registers                             ; 63                                          ;
+;     -- Dedicated logic registers            ; 63                                          ;
+;     -- I/O registers                        ; 0                                           ;
+;                                             ;                                             ;
+; I/O pins                                    ; 34                                          ;
+;                                             ;                                             ;
+; Embedded Multiplier 9-bit elements          ; 0                                           ;
+;                                             ;                                             ;
+; Maximum fan-out node                        ; divisor_de_frequencia:comb_4|flip_t:fft14|q ;
+; Maximum fan-out                             ; 19                                          ;
+; Total fan-out                               ; 416                                         ;
+; Average fan-out                             ; 1.91                                        ;
++---------------------------------------------+---------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                   ;
++-----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+-----------------------+--------------+
+; Compilation Hierarchy Node        ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                             ; Entity Name           ; Library Name ;
++-----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+-----------------------+--------------+
+; |main                             ; 87 (17)             ; 63 (0)                    ; 0           ; 0            ; 0       ; 0         ; 34   ; 0            ; |main                                           ; main                  ; work         ;
+;    |count_3b:bol_counter_x|       ; 3 (3)               ; 3 (3)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|count_3b:bol_counter_x                    ; count_3b              ; work         ;
+;    |count_3b:counter_jogador|     ; 4 (4)               ; 3 (3)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|count_3b:counter_jogador                  ; count_3b              ; work         ;
+;    |dbouncer:db1|                 ; 1 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db1                              ; dbouncer              ; work         ;
+;       |flip_d:flip1|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db1|flip_d:flip1                 ; flip_d                ; work         ;
+;       |flip_d:flip2|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db1|flip_d:flip2                 ; flip_d                ; work         ;
+;       |flip_t:flipt1|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db1|flip_t:flipt1                ; flip_t                ; work         ;
+;    |dbouncer:db2|                 ; 1 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db2                              ; dbouncer              ; work         ;
+;       |flip_d:flip1|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db2|flip_d:flip1                 ; flip_d                ; work         ;
+;       |flip_d:flip2|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db2|flip_d:flip2                 ; flip_d                ; work         ;
+;       |flip_t:flipt1|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db2|flip_t:flipt1                ; flip_t                ; work         ;
+;    |dbouncer:db3|                 ; 1 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db3                              ; dbouncer              ; work         ;
+;       |flip_d:flip1|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db3|flip_d:flip1                 ; flip_d                ; work         ;
+;       |flip_d:flip2|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db3|flip_d:flip2                 ; flip_d                ; work         ;
+;       |flip_t:flipt1|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db3|flip_t:flipt1                ; flip_t                ; work         ;
+;    |divisor_de_frequencia:comb_4| ; 24 (0)              ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4              ; divisor_de_frequencia ; work         ;
+;       |flip_t:fft0|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft0  ; flip_t                ; work         ;
+;       |flip_t:fft10|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft10 ; flip_t                ; work         ;
+;       |flip_t:fft11|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft11 ; flip_t                ; work         ;
+;       |flip_t:fft12|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft12 ; flip_t                ; work         ;
+;       |flip_t:fft13|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft13 ; flip_t                ; work         ;
+;       |flip_t:fft14|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft14 ; flip_t                ; work         ;
+;       |flip_t:fft15|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft15 ; flip_t                ; work         ;
+;       |flip_t:fft16|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft16 ; flip_t                ; work         ;
+;       |flip_t:fft17|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft17 ; flip_t                ; work         ;
+;       |flip_t:fft18|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft18 ; flip_t                ; work         ;
+;       |flip_t:fft19|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft19 ; flip_t                ; work         ;
+;       |flip_t:fft1|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft1  ; flip_t                ; work         ;
+;       |flip_t:fft20|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft20 ; flip_t                ; work         ;
+;       |flip_t:fft21|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft21 ; flip_t                ; work         ;
+;       |flip_t:fft22|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft22 ; flip_t                ; work         ;
+;       |flip_t:fft23|              ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft23 ; flip_t                ; work         ;
+;       |flip_t:fft2|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft2  ; flip_t                ; work         ;
+;       |flip_t:fft3|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft3  ; flip_t                ; work         ;
+;       |flip_t:fft4|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft4  ; flip_t                ; work         ;
+;       |flip_t:fft5|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft5  ; flip_t                ; work         ;
+;       |flip_t:fft6|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft6  ; flip_t                ; work         ;
+;       |flip_t:fft7|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft7  ; flip_t                ; work         ;
+;       |flip_t:fft8|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft8  ; flip_t                ; work         ;
+;       |flip_t:fft9|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:comb_4|flip_t:fft9  ; flip_t                ; work         ;
+;    |matriz:matrix|                ; 28 (25)             ; 16 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|matriz:matrix                             ; matriz                ; work         ;
+;       |flip_t:ff0|                ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|matriz:matrix|flip_t:ff0                  ; flip_t                ; work         ;
+;       |flip_t:ff1|                ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|matriz:matrix|flip_t:ff1                  ; flip_t                ; work         ;
+;       |flip_t:ff2|                ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|matriz:matrix|flip_t:ff2                  ; flip_t                ; work         ;
+;    |shift_register_7b:sh_bolinha| ; 8 (8)               ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shift_register_7b:sh_bolinha              ; shift_register_7b     ; work         ;
+;       |flip_d:f0|                 ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shift_register_7b:sh_bolinha|flip_d:f0    ; flip_d                ; work         ;
+;       |flip_d:f1|                 ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shift_register_7b:sh_bolinha|flip_d:f1    ; flip_d                ; work         ;
+;       |flip_d:f2|                 ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shift_register_7b:sh_bolinha|flip_d:f2    ; flip_d                ; work         ;
+;       |flip_d:f3|                 ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shift_register_7b:sh_bolinha|flip_d:f3    ; flip_d                ; work         ;
+;       |flip_d:f4|                 ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shift_register_7b:sh_bolinha|flip_d:f4    ; flip_d                ; work         ;
+;       |flip_d:f5|                 ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shift_register_7b:sh_bolinha|flip_d:f5    ; flip_d                ; work         ;
+;       |flip_d:f6|                 ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shift_register_7b:sh_bolinha|flip_d:f6    ; flip_d                ; work         ;
+;       |flip_d:f7|                 ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shift_register_7b:sh_bolinha|flip_d:f7    ; flip_d                ; work         ;
++-----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+-----------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                               ;
++----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
++----------------------------------------------------+---------------------+------------------------+
+; sentido                                            ; GND                 ; yes                    ;
+; inc_x                                              ; GND                 ; yes                    ;
+; Number of user-specified and inferred latches = 2  ;                     ;                        ;
++----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 63    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 20    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 15    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
+; 8:1                ; 5 bits    ; 25 LEs        ; 15 LEs               ; 10 LEs                 ; Yes        ; |main|matriz:matrix|colunas[4]   ;
+; 13:1               ; 7 bits    ; 56 LEs        ; 7 LEs                ; 49 LEs                 ; Yes        ; |main|matriz:matrix|linha_out[0] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "matriz:matrix|flip_t:ff0" ;
++------+-------+----------+----------------------------+
+; Port ; Type  ; Severity ; Details                    ;
++------+-------+----------+----------------------------+
+; t    ; Input ; Info     ; Stuck at VCC               ;
++------+-------+----------+----------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft24"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft23"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft22"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft21"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft20"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft19"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft18"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft17"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft16"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft15"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft14"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft13"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft12"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft11"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft10"                                                                                                                                           ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft9"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft8"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft7"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft6"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft5"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft4"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft3"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft2"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft1"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4|flip_t:fft0"                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; t       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; rst     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rst[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisor_de_frequencia:comb_4"                                                               ;
++--------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port         ; Type   ; Severity ; Details                                                                             ;
++--------------+--------+----------+-------------------------------------------------------------------------------------+
+; clk_out_2Hz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; clk_out_60Hz ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "dbouncer:db1|flip_t:flipt1" ;
++------+-------+----------+------------------------------+
+; Port ; Type  ; Severity ; Details                      ;
++------+-------+----------+------------------------------+
+; t    ; Input ; Info     ; Stuck at VCC                 ;
++------+-------+----------+------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 34                          ;
+; cycloneiii_ff         ; 63                          ;
+;     CLR               ; 20                          ;
+;     ENA               ; 15                          ;
+;     plain             ; 28                          ;
+; cycloneiii_lcell_comb ; 88                          ;
+;     normal            ; 88                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 31                          ;
+;         2 data inputs ; 11                          ;
+;         3 data inputs ; 25                          ;
+;         4 data inputs ; 20                          ;
+;                       ;                             ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 1.97                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+    Info: Processing started: Fri Jul 11 13:08:22 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Pong-on-fpga -c Pong-on-fpga
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/comp_3b.v
+    Info (12023): Found entity 1: comp_3b File: /home/kake/Documentos/jogo-pong/aux_modules/comp_3b.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/count_3b.v
+    Info (12023): Found entity 1: count_3b File: /home/kake/Documentos/jogo-pong/aux_modules/count_3b.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/shift_register_7b.v
+    Info (12023): Found entity 1: shift_register_7b File: /home/kake/Documentos/jogo-pong/aux_modules/shift_register_7b.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/dbouncer.v
+    Info (12023): Found entity 1: dbouncer File: /home/kake/Documentos/jogo-pong/aux_modules/dbouncer.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/divisor_de_frequencia.v
+    Info (12023): Found entity 1: divisor_de_frequencia File: /home/kake/Documentos/jogo-pong/aux_modules/divisor_de_frequencia.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/shift_register.v
+    Info (12023): Found entity 1: shift_register File: /home/kake/Documentos/jogo-pong/aux_modules/shift_register.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/mux.v
+    Info (12023): Found entity 1: amux File: /home/kake/Documentos/jogo-pong/aux_modules/mux.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/flip_t.v
+    Info (12023): Found entity 1: flip_t File: /home/kake/Documentos/jogo-pong/aux_modules/flip_t.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/flip_d.v
+    Info (12023): Found entity 1: flip_d File: /home/kake/Documentos/jogo-pong/aux_modules/flip_d.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file main.v
+    Info (12023): Found entity 1: main File: /home/kake/Documentos/jogo-pong/main.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/matriz.v
+    Info (12023): Found entity 1: matriz File: /home/kake/Documentos/jogo-pong/aux_modules/matriz.v Line: 1
+Critical Warning (10846): Verilog HDL Instantiation warning at main.v(20): instance has no name File: /home/kake/Documentos/jogo-pong/main.v Line: 20
+Info (12127): Elaborating entity "main" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at main.v(54): object "rst_y" assigned a value but never read File: /home/kake/Documentos/jogo-pong/main.v Line: 54
+Warning (10858): Verilog HDL warning at main.v(56): object bol_pos_y used but never assigned File: /home/kake/Documentos/jogo-pong/main.v Line: 56
+Warning (10036): Verilog HDL or VHDL warning at main.v(70): object "start" assigned a value but never read File: /home/kake/Documentos/jogo-pong/main.v Line: 70
+Warning (10034): Output port "led" at main.v(8) has no driver File: /home/kake/Documentos/jogo-pong/main.v Line: 8
+Info (10041): Inferred latch for "inc_x" at main.v(57) File: /home/kake/Documentos/jogo-pong/main.v Line: 57
+Info (10041): Inferred latch for "sentido" at main.v(39) File: /home/kake/Documentos/jogo-pong/main.v Line: 39
+Info (12128): Elaborating entity "dbouncer" for hierarchy "dbouncer:db1" File: /home/kake/Documentos/jogo-pong/main.v Line: 12
+Info (12128): Elaborating entity "flip_t" for hierarchy "dbouncer:db1|flip_t:flipt1" File: /home/kake/Documentos/jogo-pong/aux_modules/dbouncer.v Line: 13
+Info (12128): Elaborating entity "flip_d" for hierarchy "dbouncer:db1|flip_d:flip1" File: /home/kake/Documentos/jogo-pong/aux_modules/dbouncer.v Line: 15
+Info (12128): Elaborating entity "divisor_de_frequencia" for hierarchy "divisor_de_frequencia:comb_4" File: /home/kake/Documentos/jogo-pong/main.v Line: 20
+Info (12128): Elaborating entity "count_3b" for hierarchy "count_3b:counter_jogador" File: /home/kake/Documentos/jogo-pong/main.v Line: 33
+Warning (10230): Verilog HDL assignment warning at count_3b.v(12): truncated value with size 32 to match size of target (3) File: /home/kake/Documentos/jogo-pong/aux_modules/count_3b.v Line: 12
+Warning (10230): Verilog HDL assignment warning at count_3b.v(14): truncated value with size 32 to match size of target (3) File: /home/kake/Documentos/jogo-pong/aux_modules/count_3b.v Line: 14
+Info (12128): Elaborating entity "shift_register_7b" for hierarchy "shift_register_7b:sh_bolinha" File: /home/kake/Documentos/jogo-pong/main.v Line: 42
+Info (12128): Elaborating entity "matriz" for hierarchy "matriz:matrix" File: /home/kake/Documentos/jogo-pong/main.v Line: 65
+Warning (12241): 25 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "led[0]" is stuck at GND File: /home/kake/Documentos/jogo-pong/main.v Line: 8
+    Warning (13410): Pin "led[1]" is stuck at GND File: /home/kake/Documentos/jogo-pong/main.v Line: 8
+    Warning (13410): Pin "led[2]" is stuck at GND File: /home/kake/Documentos/jogo-pong/main.v Line: 8
+    Warning (13410): Pin "led[3]" is stuck at GND File: /home/kake/Documentos/jogo-pong/main.v Line: 8
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 12 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "btn[3]" File: /home/kake/Documentos/jogo-pong/main.v Line: 3
+    Warning (15610): No output dependent on input pin "btn[4]" File: /home/kake/Documentos/jogo-pong/main.v Line: 3
+    Warning (15610): No output dependent on input pin "btn[5]" File: /home/kake/Documentos/jogo-pong/main.v Line: 3
+    Warning (15610): No output dependent on input pin "btn[6]" File: /home/kake/Documentos/jogo-pong/main.v Line: 3
+    Warning (15610): No output dependent on input pin "btn[7]" File: /home/kake/Documentos/jogo-pong/main.v Line: 3
+    Warning (15610): No output dependent on input pin "btn[8]" File: /home/kake/Documentos/jogo-pong/main.v Line: 3
+    Warning (15610): No output dependent on input pin "btn[9]" File: /home/kake/Documentos/jogo-pong/main.v Line: 3
+    Warning (15610): No output dependent on input pin "btn[10]" File: /home/kake/Documentos/jogo-pong/main.v Line: 3
+    Warning (15610): No output dependent on input pin "btn[11]" File: /home/kake/Documentos/jogo-pong/main.v Line: 3
+    Warning (15610): No output dependent on input pin "sw[0]" File: /home/kake/Documentos/jogo-pong/main.v Line: 4
+    Warning (15610): No output dependent on input pin "sw[1]" File: /home/kake/Documentos/jogo-pong/main.v Line: 4
+    Warning (15610): No output dependent on input pin "sw[2]" File: /home/kake/Documentos/jogo-pong/main.v Line: 4
+Info (21057): Implemented 127 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 17 input pins
+    Info (21059): Implemented 17 output pins
+    Info (21061): Implemented 93 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
+    Info: Peak virtual memory: 418 megabytes
+    Info: Processing ended: Fri Jul 11 13:08:29 2025
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:18
+
+

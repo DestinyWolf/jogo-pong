@@ -1,0 +1,20 @@
+module count_3b (
+    increment, decrement, clk, rst, out
+);
+    input increment, decrement, clk, rst;
+    output [2:0] out;
+
+    wire [1:0] data_in_ff;
+
+
+    assign data_in_ff[0] = increment ? ~out[0]: decremente ? out[0]:1'b0;
+    assign data_in_ff[1] = increment ? ~out[1]: decremente ? out[1]:1'b0;
+    
+
+    //como decrementar?
+    //flipflops t
+    flip_t ff1(.clk(clk), .t(increment | decremente), .rst(rst), .q(out[0]));
+    flip_t ff2(.clk(data_in_ff[0]), .t(increment | decremente), .rst(rst), .q(out[1]));
+    flip_t ff3(.clk(data_in_ff[1]), .t(increment | decremente), .rst(rst), .q(out[2]));
+
+endmodule

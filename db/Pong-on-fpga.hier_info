@@ -1,0 +1,495 @@
+|main
+linhas[0] <= matriz:matrix.port7
+linhas[1] <= matriz:matrix.port7
+linhas[2] <= matriz:matrix.port7
+linhas[3] <= matriz:matrix.port7
+linhas[4] <= matriz:matrix.port7
+linhas[5] <= matriz:matrix.port7
+linhas[6] <= matriz:matrix.port7
+linhas[7] <= matriz:matrix.port7
+colunas[0] <= matriz:matrix.port8
+colunas[1] <= matriz:matrix.port8
+colunas[2] <= matriz:matrix.port8
+colunas[3] <= matriz:matrix.port8
+colunas[4] <= matriz:matrix.port8
+btn[0] => btn[0].IN1
+btn[1] => btn[1].IN1
+btn[2] => btn[2].IN1
+btn[3] => ~NO_FANOUT~
+btn[4] => ~NO_FANOUT~
+btn[5] => ~NO_FANOUT~
+btn[6] => ~NO_FANOUT~
+btn[7] => ~NO_FANOUT~
+btn[8] => ~NO_FANOUT~
+btn[9] => ~NO_FANOUT~
+btn[10] => ~NO_FANOUT~
+btn[11] => ~NO_FANOUT~
+sw[0] => ~NO_FANOUT~
+sw[1] => ~NO_FANOUT~
+sw[2] => ~NO_FANOUT~
+sw[3] => rst.IN7
+clk => clk.IN3
+led[0] <= <GND>
+led[1] <= <GND>
+led[2] <= <GND>
+led[3] <= <GND>
+
+
+|main|dbouncer:db1
+key_in => key_in.IN1
+clk => clk.IN1
+key_out <= flip_d:flip2.port3
+rst => reset.IN3
+
+
+|main|dbouncer:db1|flip_t:flipt1
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|dbouncer:db1|flip_d:flip1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|dbouncer:db1|flip_d:flip2
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|dbouncer:db2
+key_in => key_in.IN1
+clk => clk.IN1
+key_out <= flip_d:flip2.port3
+rst => reset.IN3
+
+
+|main|dbouncer:db2|flip_t:flipt1
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|dbouncer:db2|flip_d:flip1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|dbouncer:db2|flip_d:flip2
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|dbouncer:db3
+key_in => key_in.IN1
+clk => clk.IN1
+key_out <= flip_d:flip2.port3
+rst => reset.IN3
+
+
+|main|dbouncer:db3|flip_t:flipt1
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|dbouncer:db3|flip_d:flip1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|dbouncer:db3|flip_d:flip2
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4
+clk_in => clk_in.IN1
+clk_out_2Hz <= flip_t:fft24.port3
+clk_out_60Hz <= clk_out_60Hz.DB_MAX_OUTPUT_PORT_TYPE
+clk_out_120hz <= clk_delay[14].DB_MAX_OUTPUT_PORT_TYPE
+clk_30 <= clk_delay[22].DB_MAX_OUTPUT_PORT_TYPE
+clk_15 <= clk_delay[23].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft0
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft1
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft2
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft3
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft4
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft5
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft6
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft7
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft8
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft9
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft10
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft11
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft12
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft13
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft14
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft15
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft16
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft17
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft18
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft19
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft20
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft21
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft22
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft23
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|divisor_de_frequencia:comb_4|flip_t:fft24
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|count_3b:counter_jogador
+inc => out.OUTPUTSELECT
+inc => out.OUTPUTSELECT
+inc => out.OUTPUTSELECT
+dec => out.OUTPUTSELECT
+dec => out.OUTPUTSELECT
+dec => out.OUTPUTSELECT
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+rst => ~NO_FANOUT~
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|shift_register_7b:sh_bolinha
+side => data_in.OUTPUTSELECT
+side => data_in.OUTPUTSELECT
+side => data_in.OUTPUTSELECT
+side => data_in.OUTPUTSELECT
+side => data_in.OUTPUTSELECT
+side => data_in.OUTPUTSELECT
+side => data_in.OUTPUTSELECT
+side => data_in.OUTPUTSELECT
+clk => clk.IN8
+rst => rst.IN8
+data => data_in.DATAB
+data => data_in.DATAA
+dataout[0] <= flip_d:f0.q
+dataout[1] <= flip_d:f1.q
+dataout[2] <= flip_d:f2.q
+dataout[3] <= flip_d:f3.q
+dataout[4] <= flip_d:f4.q
+dataout[5] <= flip_d:f5.q
+dataout[6] <= flip_d:f6.q
+dataout[7] <= flip_d:f7.q
+
+
+|main|shift_register_7b:sh_bolinha|flip_d:f0
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|shift_register_7b:sh_bolinha|flip_d:f1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|shift_register_7b:sh_bolinha|flip_d:f2
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|shift_register_7b:sh_bolinha|flip_d:f3
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|shift_register_7b:sh_bolinha|flip_d:f4
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|shift_register_7b:sh_bolinha|flip_d:f5
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|shift_register_7b:sh_bolinha|flip_d:f6
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|shift_register_7b:sh_bolinha|flip_d:f7
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|count_3b:bol_counter_x
+inc => out.OUTPUTSELECT
+inc => out.OUTPUTSELECT
+inc => out.OUTPUTSELECT
+dec => out.OUTPUTSELECT
+dec => out.OUTPUTSELECT
+dec => out.OUTPUTSELECT
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+rst => ~NO_FANOUT~
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|matriz:matrix
+clk => clk.IN3
+rst => rst_ff.IN1
+linha0[0] => Mux7.IN0
+linha0[1] => Mux6.IN0
+linha0[2] => Mux5.IN0
+linha0[3] => Mux4.IN0
+linha0[4] => Mux3.IN0
+linha0[5] => Mux2.IN0
+linha0[6] => Mux1.IN0
+linha0[7] => Mux0.IN0
+linha1[0] => Mux7.IN1
+linha1[1] => Mux6.IN1
+linha1[2] => Mux5.IN1
+linha1[3] => Mux4.IN1
+linha1[4] => Mux3.IN1
+linha1[5] => Mux2.IN1
+linha1[6] => Mux1.IN1
+linha1[7] => Mux0.IN1
+linha2[0] => Mux7.IN2
+linha2[1] => Mux6.IN2
+linha2[2] => Mux5.IN2
+linha2[3] => Mux4.IN2
+linha2[4] => Mux3.IN2
+linha2[5] => Mux2.IN2
+linha2[6] => Mux1.IN2
+linha2[7] => Mux0.IN2
+linha3[0] => Mux7.IN3
+linha3[1] => Mux6.IN3
+linha3[2] => Mux5.IN3
+linha3[3] => Mux4.IN3
+linha3[4] => Mux3.IN3
+linha3[5] => Mux2.IN3
+linha3[6] => Mux1.IN3
+linha3[7] => Mux0.IN3
+linha4[0] => Mux7.IN4
+linha4[1] => Mux6.IN4
+linha4[2] => Mux5.IN4
+linha4[3] => Mux4.IN4
+linha4[4] => Mux3.IN4
+linha4[5] => Mux2.IN4
+linha4[6] => Mux1.IN4
+linha4[7] => Mux0.IN4
+linha_out[0] <= linha_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+linha_out[1] <= linha_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+linha_out[2] <= linha_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+linha_out[3] <= linha_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+linha_out[4] <= linha_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+linha_out[5] <= linha_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+linha_out[6] <= linha_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+linha_out[7] <= linha_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+colunas[0] <= colunas[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+colunas[1] <= colunas[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+colunas[2] <= colunas[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+colunas[3] <= colunas[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+colunas[4] <= colunas[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|matriz:matrix|flip_t:ff0
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|matriz:matrix|flip_t:ff1
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|matriz:matrix|flip_t:ff2
+clk => q~reg0.CLK
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

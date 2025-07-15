@@ -1,0 +1,39 @@
+module divisor_de_frequencia (
+    clk_in, clk_out_2Hz, clk_out_60Hz, clk_out_120hz, clk_30, clk_15, clk_3, clk_4
+);
+    input clk_in;
+    output clk_out_2Hz, clk_out_60Hz, clk_out_120hz, clk_30, clk_15, clk_3, clk_4;
+
+    wire [23:0] clk_delay;
+
+    flip_t fft0(clk_in, 1'b1, 0, clk_delay[0]);
+    flip_t fft1(clk_delay[0], 1'b1, 0, clk_delay[1]);
+    flip_t fft2(clk_delay[1], 1'b1, 0, clk_delay[2]);
+    flip_t fft3(clk_delay[2], 1'b1, 0, clk_delay[3]);
+    flip_t fft4(clk_delay[3], 1'b1, 0, clk_delay[4]);
+    flip_t fft5(clk_delay[4], 1'b1, 0, clk_delay[5]);
+    flip_t fft6(clk_delay[5], 1'b1, 0, clk_delay[6]);
+    flip_t fft7(clk_delay[6], 1'b1, 0, clk_delay[7]);
+    flip_t fft8(clk_delay[7], 1'b1, 0, clk_delay[8]);
+    flip_t fft9(clk_delay[8], 1'b1, 0, clk_delay[9]);
+    flip_t fft10(clk_delay[9], 1'b1, 0, clk_delay[10]);
+    flip_t fft11(clk_delay[10], 1'b1, 0, clk_delay[11]);
+    flip_t fft12(clk_delay[11], 1'b1, 0, clk_delay[12]);
+    flip_t fft13(clk_delay[12], 1'b1, 0, clk_delay[13]);
+    flip_t fft14(clk_delay[13], 1'b1, 0, clk_delay[14]);
+    flip_t fft15(clk_delay[14], 1'b1, 0, clk_delay[15]);
+    flip_t fft16(clk_delay[15], 1'b1, 0, clk_delay[16]);
+    flip_t fft17(clk_delay[16], 1'b1, 0, clk_delay[17]);
+    flip_t fft18(clk_delay[17], 1'b1, 0, clk_delay[18]);
+    flip_t fft19(clk_delay[18], 1'b1, 0, clk_out_60Hz);
+    flip_t fft20(clk_out_60Hz, 1'b1, 0, clk_delay[20]);
+    flip_t fft21(clk_delay[20], 1'b1, 0, clk_delay[21]);
+    flip_t fft22(clk_delay[21], 1'b1, 0, clk_delay[22]);
+    flip_t fft23(clk_delay[22], 1'b1, 0, clk_delay[23]);
+    flip_t fft24(clk_delay[23], 1'b1, 0, clk_out_2Hz);
+	 assign clk_out_120hz = clk_delay[14];
+	 assign clk_30 = clk_delay[22];
+	 assign clk_15 = clk_delay[23];
+     assign clk_3 = clk_delay[21];
+     assign clk_4 = clk_delay[20];
+endmodule

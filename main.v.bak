@@ -1,0 +1,4 @@
+module main(input a, input b, output c, output s);
+	
+	assign {c,s} = a + b
+endmodule

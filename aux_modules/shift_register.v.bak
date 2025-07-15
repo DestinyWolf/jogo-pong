@@ -1,0 +1,16 @@
+module shift_register (
+    side, clk, rst, data, dataout
+);
+    input side, clk, rst, data;
+    output [4:0] dataout;
+    wire [4:0] ff_data_out;
+
+    flip_d f0(.clk(clk), .d(data), .rst(rst), .q(ff_data_out[0]));
+    flip_d f1(.clk(clk), .d(ff_data_out[0]), .rst(rst), .q(ff_data_out[1]));
+    flip_d f2(.clk(clk), .d(ff_data_out[1]), .rst(rst), .q(ff_data_out[2]));
+    flip_d f3(.clk(clk), .d(ff_data_out[2]), .rst(rst), .q(ff_data_out[3]));
+    flip_d f4(.clk(clk), .d(ff_data_out[3]), .rst(rst), .q(ff_data_out[4]));
+
+    assign dataout = ff_data_out;
+    
+endmodule

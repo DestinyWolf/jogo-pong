@@ -1,0 +1,103 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2025  Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Altera and sold by Altera or its authorized distributors.  Please
+# refer to the Altera Software License Subscription Agreements 
+# on the Quartus Prime software download page.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+# Date created = 18:12:21  July 07, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Pong-on-fpga_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE30F23C7
+set_global_assignment -name TOP_LEVEL_ENTITY main
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 24.1STD.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:12:21  JULY 07, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "24.1std.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_Y17 -to btn[11]
+set_location_assignment PIN_U17 -to btn[10]
+set_location_assignment PIN_W15 -to btn[9]
+set_location_assignment PIN_W19 -to btn[8]
+set_location_assignment PIN_W17 -to btn[7]
+set_location_assignment PIN_V15 -to btn[6]
+set_location_assignment PIN_U21 -to btn[5]
+set_location_assignment PIN_W20 -to btn[4]
+set_location_assignment PIN_U16 -to btn[3]
+set_location_assignment PIN_U22 -to btn[2]
+set_location_assignment PIN_U20 -to btn[1]
+set_location_assignment PIN_V22 -to btn[0]
+set_location_assignment PIN_T2 -to clk
+set_location_assignment PIN_L8 -to colunas[4]
+set_location_assignment PIN_J8 -to colunas[3]
+set_location_assignment PIN_K8 -to colunas[2]
+set_location_assignment PIN_J6 -to colunas[1]
+set_location_assignment PIN_J7 -to colunas[0]
+set_location_assignment PIN_H11 -to linhas[7]
+set_location_assignment PIN_G8 -to linhas[6]
+set_location_assignment PIN_F8 -to linhas[5]
+set_location_assignment PIN_F9 -to linhas[4]
+set_location_assignment PIN_G9 -to linhas[3]
+set_location_assignment PIN_E9 -to linhas[2]
+set_location_assignment PIN_C8 -to linhas[1]
+set_location_assignment PIN_F10 -to linhas[0]
+set_location_assignment PIN_V21 -to sw[0]
+set_location_assignment PIN_W22 -to sw[1]
+set_location_assignment PIN_W21 -to sw[2]
+set_location_assignment PIN_Y22 -to sw[3]
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name VERILOG_FILE aux_modules/comp_3b.v
+set_global_assignment -name VERILOG_FILE aux_modules/count_3b.v
+set_global_assignment -name VERILOG_FILE aux_modules/shift_register_7b.v
+set_global_assignment -name VERILOG_FILE aux_modules/dbouncer.v
+set_global_assignment -name VERILOG_FILE aux_modules/divisor_de_frequencia.v
+set_global_assignment -name VERILOG_FILE aux_modules/shift_register.v
+set_global_assignment -name VERILOG_FILE aux_modules/mux.v
+set_global_assignment -name VERILOG_FILE aux_modules/flip_t.v
+set_global_assignment -name VERILOG_FILE aux_modules/flip_d.v
+set_global_assignment -name VERILOG_FILE main.v
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_V1 -to led[0]
+set_location_assignment PIN_U2 -to led[1]
+set_location_assignment PIN_U1 -to led[2]
+set_location_assignment PIN_Y2 -to led[3]
+set_global_assignment -name VERILOG_FILE aux_modules/matriz.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

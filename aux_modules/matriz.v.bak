@@ -1,0 +1,33 @@
+module matriz(
+	clk, rst, linha0, linha1, linha2, linha3, linha4, linha_out
+);
+	input clkc, rst;
+	input rsg [7:0] linha0, linha1, linha2, linha3, linha4;
+	output [7:0] linha_out;
+	wire [2:0] ff_in;
+	wire [2:0] count;
+	
+	assign ff_in[0] = (~count[2] & ~count[0]);
+	assign ff_in[1] = (~count[2] & ~count[1] & count[0]) | (~count[2] & count[1] & ~count[0]);
+	assign ff_in[2] = (~count[2] & count[1] & count[0]);
+	
+	flip_t ff0(clk, ff_in[0], rst, count[0]);
+	flip_t ff1(clk, ff_in[1], rst, count[1]);
+	flip_t ff2(clk, ff_in[2], rst, count[2]);
+	
+	
+	always @(*) begin
+		if(count == 3'b000) begin
+			linha_out <= linha0;
+		end else if (count == 3'b001) begin
+			linha_out <= linha1;
+		end else if (count == 3'b010) begin
+			linha_out <= linha2;
+		end else if (count == 3'b011) begin
+			linha_out <= linha3;
+		end else if (count == 3'b100) begin
+			linha_out <= linha4;
+		end
+	end
+	
+endmodule

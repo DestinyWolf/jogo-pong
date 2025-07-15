@@ -1,0 +1,14 @@
+module debouncer (
+    key_in, clk, key_out;
+);
+    input key_in, clk;
+    output key_out;
+
+    wire reset;
+    wire delay_key;
+    assign reset = ~key_in;
+    
+    flip_d flip1(clk, key_in, reset, delay_key);
+    flip_t flip2(clk, delay_key, reset, key_out);
+
+endmodule
