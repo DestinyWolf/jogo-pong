@@ -1,0 +1,7 @@
+
+State Machine - |main|game_state
+Name game_state.FINISHED game_state.PAUSED game_state.RUNNING game_state.IN_MENU 
+game_state.IN_MENU 0 0 0 0 
+game_state.RUNNING 0 0 1 1 
+game_state.PAUSED 0 1 0 1 
+game_state.FINISHED 1 0 0 1 

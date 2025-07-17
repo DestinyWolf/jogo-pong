@@ -2,1035 +2,927 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : -2.914
-TNS   : -27.373
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft23|q'
+Slack : -4.499
+TNS   : -14.811
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft22|q'
-Slack : -1.748
-TNS   : -6.183
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : -2.517
+TNS   : -27.474
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft23|q'
-Slack : -1.204
-TNS   : -3.710
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft19|q'
+Slack : -1.762
+TNS   : -22.615
+
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft9|q'
+Slack : -0.649
+TNS   : -0.649
+
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft1|q'
+Slack : -0.633
+TNS   : -0.633
 
 Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -0.909
-TNS   : -2.520
+Slack : -0.607
+TNS   : -0.607
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft16|q'
-Slack : -0.613
-TNS   : -0.613
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft3|q'
+Slack : -0.581
+TNS   : -0.581
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft5|q'
-Slack : -0.597
-TNS   : -0.597
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft22|q'
+Slack : -0.539
+TNS   : -0.539
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft15|q'
-Slack : -0.596
-TNS   : -0.596
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft7|q'
+Slack : -0.533
+TNS   : -0.533
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft8|q'
-Slack : -0.534
-TNS   : -0.534
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft5|q'
+Slack : -0.532
+TNS   : -0.532
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft19|q'
-Slack : -0.524
-TNS   : -0.524
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft18|q'
+Slack : -0.526
+TNS   : -0.526
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft0|q'
-Slack : -0.514
-TNS   : -0.514
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft10|q'
+Slack : -0.510
+TNS   : -0.510
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft17|q'
-Slack : -0.512
-TNS   : -0.512
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft4|q'
+Slack : -0.501
+TNS   : -0.501
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft20|q'
-Slack : -0.502
-TNS   : -0.502
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft6|q'
+Slack : -0.501
+TNS   : -0.501
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft6|q'
-Slack : -0.502
-TNS   : -0.502
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft11|q'
+Slack : -0.500
+TNS   : -0.500
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft9|q'
-Slack : -0.475
-TNS   : -0.475
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft20|q'
+Slack : -0.495
+TNS   : -0.495
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft2|q'
-Slack : -0.448
-TNS   : -0.448
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft17|q'
+Slack : -0.452
+TNS   : -0.452
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft10|q'
-Slack : -0.441
-TNS   : -0.441
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft15|q'
+Slack : -0.444
+TNS   : -0.444
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft18|q'
-Slack : -0.438
-TNS   : -0.438
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft8|q'
+Slack : -0.418
+TNS   : -0.418
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft4|q'
-Slack : -0.404
-TNS   : -0.404
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft13|q'
+Slack : -0.413
+TNS   : -0.413
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft12|q'
-Slack : -0.397
-TNS   : -0.397
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft2|q'
+Slack : -0.409
+TNS   : -0.409
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft13|q'
-Slack : -0.388
-TNS   : -0.388
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft21|q'
+Slack : -0.379
+TNS   : -0.379
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft3|q'
-Slack : -0.368
-TNS   : -0.368
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft12|q'
+Slack : -0.370
+TNS   : -0.370
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft21|q'
-Slack : -0.363
-TNS   : -0.363
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft0|q'
+Slack : -0.361
+TNS   : -0.361
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft1|q'
-Slack : -0.342
-TNS   : -0.342
+Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft16|q'
+Slack : -0.327
+TNS   : -0.327
 
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft11|q'
-Slack : -0.337
-TNS   : -0.337
-
-Type  : Slow 1200mV 85C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft7|q'
-Slack : -0.333
-TNS   : -0.333
-
-Type  : Slow 1200mV 85C Model Setup 'dbouncer:db2|flip_t:flipt1|q'
-Slack : -0.045
-TNS   : -0.045
-
-Type  : Slow 1200mV 85C Model Setup 'dbouncer:db1|flip_t:flipt1|q'
-Slack : 0.135
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Setup 'dbouncer:db3|flip_t:flipt1|q'
-Slack : 0.138
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft11|q'
-Slack : 0.382
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft22|q'
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft13|q'
 Slack : 0.410
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft23|q'
+Slack : 0.410
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
 Slack : 0.411
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft18|q'
-Slack : 0.419
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft19|q'
+Slack : 0.411
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft7|q'
-Slack : 0.428
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft8|q'
+Slack : 0.440
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'dbouncer:db3|flip_t:flipt1|q'
-Slack : 0.438
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft16|q'
+Slack : 0.447
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'dbouncer:db1|flip_t:flipt1|q'
-Slack : 0.439
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft0|q'
+Slack : 0.449
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft1|q'
-Slack : 0.439
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft10|q'
+Slack : 0.474
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft10|q'
-Slack : 0.462
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft5|q'
+Slack : 0.475
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft2|q'
-Slack : 0.463
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft12|q'
+Slack : 0.477
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft23|q'
-Slack : 0.467
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft20|q'
+Slack : 0.477
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft21|q'
-Slack : 0.480
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft18|q'
+Slack : 0.487
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft19|q'
-Slack : 0.486
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft13|q'
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft11|q'
 Slack : 0.488
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft20|q'
-Slack : 0.489
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft4|q'
+Slack : 0.488
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft6|q'
-Slack : 0.489
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft7|q'
+Slack : 0.488
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft12|q'
-Slack : 0.490
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft6|q'
+Slack : 0.495
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft4|q'
-Slack : 0.496
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft22|q'
+Slack : 0.502
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft17|q'
-Slack : 0.504
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft0|q'
-Slack : 0.505
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft3|q'
-Slack : 0.513
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft8|q'
-Slack : 0.525
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft5|q'
-Slack : 0.547
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft16|q'
-Slack : 0.573
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft15|q'
-Slack : 0.577
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'dbouncer:db2|flip_t:flipt1|q'
-Slack : 0.611
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft9|q'
-Slack : 0.620
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft2|q'
+Slack : 0.503
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : 0.682
+Slack : 0.517
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Recovery 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : -1.134
-TNS   : -3.402
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft21|q'
+Slack : 0.522
+TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Removal 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : 1.386
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft9|q'
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft1|q'
+Slack : 0.546
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft3|q'
+Slack : 0.548
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft17|q'
+Slack : 0.588
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft15|q'
+Slack : 0.590
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : -1.127
+TNS   : -3.381
+
+Type  : Slow 1200mV 85C Model Removal 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : 1.394
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -6.855
+TNS   : -4.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft19|q'
 Slack : -1.285
-TNS   : -23.130
+TNS   : -25.700
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft23|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
 Slack : -1.285
-TNS   : -10.280
+TNS   : -21.845
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft22|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft23|q'
 Slack : -1.285
-TNS   : -8.995
+TNS   : -11.565
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dbouncer:db1|flip_t:flipt1|q'
-Slack : -1.285
-TNS   : -2.570
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dbouncer:db2|flip_t:flipt1|q'
-Slack : -1.285
-TNS   : -2.570
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dbouncer:db3|flip_t:flipt1|q'
-Slack : -1.285
-TNS   : -2.570
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft0|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft0|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft10|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft10|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft11|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft11|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft12|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft12|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft13|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft13|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft15|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft15|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft16|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft16|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft17|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft17|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft18|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft18|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft19|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft1|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft1|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft20|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft20|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft21|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft21|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft22|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft2|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft2|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft3|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft3|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft4|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft4|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft5|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft5|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft6|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft6|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft7|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft7|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft8|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft8|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft9|q'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft9|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : -2.549
-TNS   : -23.332
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft23|q'
+Slack : -3.990
+TNS   : -12.787
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft22|q'
-Slack : -1.534
-TNS   : -5.347
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : -2.230
+TNS   : -23.872
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft23|q'
-Slack : -1.011
-TNS   : -2.621
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft19|q'
+Slack : -1.549
+TNS   : -19.473
+
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft9|q'
+Slack : -0.514
+TNS   : -0.514
+
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft1|q'
+Slack : -0.503
+TNS   : -0.503
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -0.811
-TNS   : -2.227
+Slack : -0.486
+TNS   : -0.486
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft15|q'
-Slack : -0.488
-TNS   : -0.488
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft3|q'
+Slack : -0.468
+TNS   : -0.468
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft16|q'
-Slack : -0.485
-TNS   : -0.485
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft22|q'
+Slack : -0.440
+TNS   : -0.440
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft5|q'
-Slack : -0.475
-TNS   : -0.475
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft18|q'
+Slack : -0.427
+TNS   : -0.427
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft8|q'
-Slack : -0.432
-TNS   : -0.432
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft7|q'
+Slack : -0.427
+TNS   : -0.427
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft0|q'
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft5|q'
 Slack : -0.416
 TNS   : -0.416
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft17|q'
-Slack : -0.414
-TNS   : -0.414
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft6|q'
+Slack : -0.406
+TNS   : -0.406
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft19|q'
-Slack : -0.414
-TNS   : -0.414
-
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft20|q'
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft11|q'
 Slack : -0.404
 TNS   : -0.404
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft6|q'
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft4|q'
 Slack : -0.404
 TNS   : -0.404
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft9|q'
-Slack : -0.385
-TNS   : -0.385
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft10|q'
+Slack : -0.403
+TNS   : -0.403
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft2|q'
-Slack : -0.365
-TNS   : -0.365
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft20|q'
+Slack : -0.395
+TNS   : -0.395
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft10|q'
-Slack : -0.361
-TNS   : -0.361
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft17|q'
+Slack : -0.366
+TNS   : -0.366
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft18|q'
-Slack : -0.334
-TNS   : -0.334
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft15|q'
+Slack : -0.356
+TNS   : -0.356
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft4|q'
-Slack : -0.319
-TNS   : -0.319
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft8|q'
+Slack : -0.340
+TNS   : -0.340
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft12|q'
-Slack : -0.311
-TNS   : -0.311
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft13|q'
+Slack : -0.330
+TNS   : -0.330
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft13|q'
-Slack : -0.306
-TNS   : -0.306
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft2|q'
+Slack : -0.322
+TNS   : -0.322
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft3|q'
-Slack : -0.291
-TNS   : -0.291
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft21|q'
+Slack : -0.298
+TNS   : -0.298
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft21|q'
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft12|q'
+Slack : -0.287
+TNS   : -0.287
+
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft0|q'
 Slack : -0.278
 TNS   : -0.278
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft1|q'
-Slack : -0.257
-TNS   : -0.257
+Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft16|q'
+Slack : -0.260
+TNS   : -0.260
 
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft11|q'
-Slack : -0.250
-TNS   : -0.250
-
-Type  : Slow 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft7|q'
-Slack : -0.247
-TNS   : -0.247
-
-Type  : Slow 1200mV 0C Model Setup 'dbouncer:db2|flip_t:flipt1|q'
-Slack : 0.047
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Setup 'dbouncer:db1|flip_t:flipt1|q'
-Slack : 0.222
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Setup 'dbouncer:db3|flip_t:flipt1|q'
-Slack : 0.224
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft11|q'
-Slack : 0.331
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft18|q'
-Slack : 0.359
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft22|q'
-Slack : 0.360
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
 Slack : 0.361
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft7|q'
-Slack : 0.376
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft23|q'
+Slack : 0.361
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft1|q'
-Slack : 0.389
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft19|q'
+Slack : 0.362
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'dbouncer:db3|flip_t:flipt1|q'
-Slack : 0.403
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft13|q'
+Slack : 0.363
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'dbouncer:db1|flip_t:flipt1|q'
-Slack : 0.405
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft8|q'
+Slack : 0.396
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft10|q'
-Slack : 0.411
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft16|q'
+Slack : 0.406
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft19|q'
-Slack : 0.413
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft0|q'
+Slack : 0.408
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft21|q'
-Slack : 0.415
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft5|q'
+Slack : 0.409
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft2|q'
-Slack : 0.415
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft12|q'
+Slack : 0.410
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft13|q'
-Slack : 0.427
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft10|q'
+Slack : 0.414
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft23|q'
-Slack : 0.430
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft7|q'
+Slack : 0.422
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft20|q'
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft20|q'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft18|q'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft11|q'
 Slack : 0.434
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft6|q'
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft4|q'
 Slack : 0.434
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft12|q'
-Slack : 0.441
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft4|q'
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft9|q'
 Slack : 0.443
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft17|q'
-Slack : 0.449
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft0|q'
-Slack : 0.452
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft3|q'
-Slack : 0.459
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft8|q'
-Slack : 0.472
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft5|q'
-Slack : 0.473
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft16|q'
-Slack : 0.489
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft15|q'
-Slack : 0.510
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'dbouncer:db2|flip_t:flipt1|q'
-Slack : 0.558
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft9|q'
-Slack : 0.567
-TNS   : 0.000
-
 Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.623
+Slack : 0.444
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Recovery 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : -0.924
-TNS   : -2.772
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft6|q'
+Slack : 0.444
+TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Removal 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : 1.259
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft22|q'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft2|q'
+Slack : 0.451
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft21|q'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft1|q'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft3|q'
+Slack : 0.482
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft17|q'
+Slack : 0.519
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft15|q'
+Slack : 0.530
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : -0.914
+TNS   : -2.742
+
+Type  : Slow 1200mV 0C Model Removal 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : 1.267
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -6.855
+TNS   : -4.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft19|q'
 Slack : -1.285
-TNS   : -23.130
+TNS   : -25.700
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft23|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
 Slack : -1.285
-TNS   : -10.280
+TNS   : -21.845
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft22|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft23|q'
 Slack : -1.285
-TNS   : -8.995
+TNS   : -11.565
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dbouncer:db1|flip_t:flipt1|q'
-Slack : -1.285
-TNS   : -2.570
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dbouncer:db2|flip_t:flipt1|q'
-Slack : -1.285
-TNS   : -2.570
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dbouncer:db3|flip_t:flipt1|q'
-Slack : -1.285
-TNS   : -2.570
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft0|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft0|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft10|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft10|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft11|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft11|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft12|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft12|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft13|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft13|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft15|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft15|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft16|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft16|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft17|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft17|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft18|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft18|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft19|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft1|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft1|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft20|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft20|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft21|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft21|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft22|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft2|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft2|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft3|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft3|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft4|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft4|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft5|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft5|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft6|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft6|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft7|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft7|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft8|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft8|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft9|q'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft9|q'
 Slack : -1.285
 TNS   : -1.285
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : -0.887
-TNS   : -5.923
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft23|q'
+Slack : -1.734
+TNS   : -4.904
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft22|q'
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : -0.655
+TNS   : -5.549
+
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft19|q'
 Slack : -0.371
-TNS   : -1.250
+TNS   : -2.727
 
-Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -0.223
-TNS   : -0.439
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft9|q'
+Slack : -0.077
+TNS   : -0.077
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft23|q'
-Slack : -0.113
-TNS   : -0.223
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft1|q'
+Slack : -0.042
+TNS   : -0.042
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft16|q'
-Slack : -0.031
-TNS   : -0.031
-
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft15|q'
-Slack : -0.028
-TNS   : -0.028
-
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft5|q'
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft3|q'
 Slack : -0.027
 TNS   : -0.027
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft19|q'
-Slack : 0.008
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.012
+TNS   : -0.012
+
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft7|q'
+Slack : -0.004
+TNS   : -0.004
+
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft22|q'
+Slack : 0.007
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft8|q'
-Slack : 0.012
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft18|q'
+Slack : 0.014
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft0|q'
-Slack : 0.023
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft5|q'
+Slack : 0.015
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft17|q'
-Slack : 0.025
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft10|q'
+Slack : 0.021
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft20|q'
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft6|q'
+Slack : 0.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft4|q'
 Slack : 0.032
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft6|q'
-Slack : 0.032
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft11|q'
+Slack : 0.033
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft18|q'
-Slack : 0.034
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft20|q'
+Slack : 0.035
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft9|q'
-Slack : 0.059
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft17|q'
+Slack : 0.061
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft2|q'
-Slack : 0.070
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft15|q'
+Slack : 0.064
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft10|q'
-Slack : 0.071
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft13|q'
+Slack : 0.074
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft4|q'
-Slack : 0.077
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft2|q'
+Slack : 0.075
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft21|q'
-Slack : 0.081
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft8|q'
+Slack : 0.079
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft12|q'
-Slack : 0.088
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft12|q'
+Slack : 0.089
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft13|q'
-Slack : 0.088
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft3|q'
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft21|q'
 Slack : 0.098
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft1|q'
-Slack : 0.101
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft11|q'
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft0|q'
 Slack : 0.102
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:comb_4|flip_t:fft7|q'
-Slack : 0.103
+Type  : Fast 1200mV 0C Model Setup 'divisor_de_frequencia:main_clk_div|flip_t:fft16|q'
+Slack : 0.135
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'dbouncer:db2|flip_t:flipt1|q'
-Slack : 0.509
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft19|q'
+Slack : 0.184
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'dbouncer:db1|flip_t:flipt1|q'
-Slack : 0.575
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : 0.186
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'dbouncer:db3|flip_t:flipt1|q'
-Slack : 0.578
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft23|q'
+Slack : 0.186
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft11|q'
-Slack : 0.185
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft13|q'
+Slack : 0.191
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : 0.185
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft0|q'
+Slack : 0.199
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft22|q'
-Slack : 0.185
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft16|q'
+Slack : 0.205
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'dbouncer:db3|flip_t:flipt1|q'
-Slack : 0.193
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'dbouncer:db1|flip_t:flipt1|q'
-Slack : 0.195
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft1|q'
-Slack : 0.207
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft7|q'
-Slack : 0.207
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft23|q'
-Slack : 0.208
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft12|q'
-Slack : 0.216
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft13|q'
-Slack : 0.219
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft10|q'
-Slack : 0.221
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft18|q'
-Slack : 0.221
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft2|q'
-Slack : 0.224
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft20|q'
-Slack : 0.227
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft6|q'
-Slack : 0.227
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft4|q'
-Slack : 0.228
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft19|q'
-Slack : 0.230
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft17|q'
-Slack : 0.235
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft0|q'
-Slack : 0.236
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft8|q'
-Slack : 0.244
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft21|q'
-Slack : 0.246
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft3|q'
-Slack : 0.248
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'dbouncer:db2|flip_t:flipt1|q'
-Slack : 0.269
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft16|q'
-Slack : 0.273
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft5|q'
-Slack : 0.274
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft8|q'
+Slack : 0.212
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : 0.276
+Slack : 0.215
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft9|q'
-Slack : 0.283
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft20|q'
+Slack : 0.220
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:comb_4|flip_t:fft15|q'
-Slack : 0.284
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft10|q'
+Slack : 0.221
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Recovery 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : -0.052
-TNS   : -0.156
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft18|q'
+Slack : 0.222
+TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Removal 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
-Slack : 0.658
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft5|q'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft4|q'
+Slack : 0.225
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft11|q'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft2|q'
+Slack : 0.227
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft22|q'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft6|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft12|q'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft7|q'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft21|q'
+Slack : 0.250
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft1|q'
+Slack : 0.266
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft3|q'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft15|q'
+Slack : 0.275
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft9|q'
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_de_frequencia:main_clk_div|flip_t:fft17|q'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : -0.053
+TNS   : -0.159
+
+Type  : Fast 1200mV 0C Model Removal 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
+Slack : 0.663
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -6.163
+TNS   : -4.057
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft14|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft19|q'
 Slack : -1.000
-TNS   : -18.000
+TNS   : -20.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft23|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft14|q'
 Slack : -1.000
-TNS   : -8.000
+TNS   : -17.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft22|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft23|q'
 Slack : -1.000
-TNS   : -7.000
+TNS   : -9.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dbouncer:db1|flip_t:flipt1|q'
-Slack : -1.000
-TNS   : -2.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dbouncer:db2|flip_t:flipt1|q'
-Slack : -1.000
-TNS   : -2.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dbouncer:db3|flip_t:flipt1|q'
-Slack : -1.000
-TNS   : -2.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft0|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft0|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft10|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft10|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft11|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft11|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft12|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft12|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft13|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft13|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft15|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft15|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft16|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft16|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft17|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft17|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft18|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft18|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft19|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft1|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft1|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft20|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft20|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft21|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft21|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft22|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft2|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft2|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft3|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft3|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft4|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft4|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft5|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft5|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft6|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft6|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft7|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft7|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft8|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft8|q'
 Slack : -1.000
 TNS   : -1.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:comb_4|flip_t:fft9|q'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_de_frequencia:main_clk_div|flip_t:fft9|q'
 Slack : -1.000
 TNS   : -1.000
 

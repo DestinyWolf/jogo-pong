@@ -56,11 +56,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "sw[3]",
+					"name" : "btn[1]",
 					"strict" : false
 				},
 				{
 					"name" : "btn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sw[3]",
 					"strict" : false
 				},
 				{
@@ -69,10 +73,6 @@
 				},
 				{
 					"name" : "clk",
-					"strict" : false
-				},
-				{
-					"name" : "btn[1]",
 					"strict" : false
 				}
 			]
