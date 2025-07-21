@@ -29,20 +29,20 @@ sw[1] => ~NO_FANOUT~
 sw[2] => ~NO_FANOUT~
 sw[3] => rst.IN4
 clk => clk.IN1
-display0[0] <= <GND>
-display0[1] <= <GND>
-display0[2] <= <GND>
-display0[3] <= <GND>
-display0[4] <= <GND>
-display0[5] <= <GND>
-display0[6] <= <GND>
-display1[0] <= <GND>
-display1[1] <= <GND>
-display1[2] <= <GND>
-display1[3] <= <GND>
-display1[4] <= <GND>
-display1[5] <= <GND>
-display1[6] <= <GND>
+display0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+display0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+display0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+display0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+display0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+display0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+display0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+display1[0] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+display1[1] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+display1[2] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+display1[3] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+display1[4] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+display1[5] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+display1[6] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |main|dbouncer:db1

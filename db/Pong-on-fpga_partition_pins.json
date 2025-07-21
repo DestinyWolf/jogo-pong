@@ -4,10 +4,6 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "linhas[0]",
-					"strict" : false
-				},
-				{
 					"name" : "linhas[1]",
 					"strict" : false
 				},
@@ -56,7 +52,67 @@
 					"strict" : false
 				},
 				{
+					"name" : "display0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display1[6]",
+					"strict" : false
+				},
+				{
 					"name" : "btn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "btn[2]",
 					"strict" : false
 				},
 				{
@@ -65,10 +121,6 @@
 				},
 				{
 					"name" : "sw[3]",
-					"strict" : false
-				},
-				{
-					"name" : "btn[2]",
 					"strict" : false
 				},
 				{
