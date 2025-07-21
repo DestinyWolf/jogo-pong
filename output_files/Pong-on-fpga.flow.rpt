@@ -1,5 +1,5 @@
 Flow report for Pong-on-fpga
-Mon Jul 21 09:48:47 2025
+Mon Jul 21 10:07:53 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -41,17 +41,17 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Jul 21 09:48:44 2025           ;
+; Flow Status                        ; Successful - Mon Jul 21 10:07:50 2025           ;
 ; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; Pong-on-fpga                                    ;
 ; Top-level Entity Name              ; main                                            ;
 ; Family                             ; Cyclone IV E                                    ;
 ; Device                             ; EP4CE30F23C7                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 168 / 28,848 ( < 1 % )                          ;
-;     Total combinational functions  ; 134 / 28,848 ( < 1 % )                          ;
-;     Dedicated logic registers      ; 84 / 28,848 ( < 1 % )                           ;
-; Total registers                    ; 84                                              ;
+; Total logic elements               ; 195 / 28,848 ( < 1 % )                          ;
+;     Total combinational functions  ; 154 / 28,848 ( < 1 % )                          ;
+;     Dedicated logic registers      ; 88 / 28,848 ( < 1 % )                           ;
+; Total registers                    ; 88                                              ;
 ; Total pins                         ; 44 / 329 ( 13 % )                               ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                             ;
@@ -65,7 +65,7 @@ on the Quartus Prime software download page.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/21/2025 09:48:25 ;
+; Start date & time ; 07/21/2025 10:07:31 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Pong-on-fpga        ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ on the Quartus Prime software download page.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 23050428434912.175310210551024         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 23050428434912.175310325162311         ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
@@ -98,7 +98,7 @@ on the Quartus Prime software download page.
 ; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 416 MB              ; 00:00:25                           ;
 ; Fitter               ; 00:00:06     ; 1.0                     ; 987 MB              ; 00:00:09                           ;
 ; Assembler            ; 00:00:01     ; 1.0                     ; 345 MB              ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 479 MB              ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 468 MB              ; 00:00:02                           ;
 ; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:37                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 

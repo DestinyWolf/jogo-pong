@@ -135,7 +135,14 @@ module main(linhas, colunas, btn, sw, clk, display0, display1);
 	//reestruturação da maquina de estados
 
 	always @(posedge clk_120) begin
+		if(sw[3]) begin
+			game_state <= IN_MENU;
+			start <= 1'b0;
+			on_running_game <= 1'b0;
+			game_rst<= 1'b1;
+		end
 		case (game_state)
+			
 			IN_MENU: begin
 				linhas <= 8'b00000000;
 				colunas <= 5'b00000;
@@ -168,6 +175,7 @@ module main(linhas, colunas, btn, sw, clk, display0, display1);
 				if((colision && lost) | (colision && win)) begin
 					game_state <= FINISHED;
 					on_running_game <= 1'b0;
+					count <= 3'b000;
 				end
 				if (key1) begin
 					on_running_game <= 1'b0;
@@ -192,15 +200,15 @@ module main(linhas, colunas, btn, sw, clk, display0, display1);
 			FINISHED: begin
 				on_running_game <= 1'b0;
 				game_rst<= 1'b1;
-				if (count >= 1'd3) begin
+				if (count >= 3'b100) begin
 					linhas <= 8'b0000000;
 					colunas <= 5'b00000;
-				end else if(count == 1'd7) begin
+				end else if(count == 3'b111) begin
 					count <= 3'b000;
 				end else begin
-					count <= count + 1;
+					count <= count + (1 & clk_15);
 					linhas <= 8'b11111111;
-					colunas <= 5'b11111;
+					colunas <= 5'b00000;
 				end
 				if (key1) begin
 					game_state <= IN_MENU;
@@ -234,6 +242,11 @@ module main(linhas, colunas, btn, sw, clk, display0, display1);
 				decimal <= 4'h0;
 			end
 			RUNNING: begin
+				if (sw[2]) begin
+					points <= 7'b1100000;
+					unit <= 4'h5;
+					decimal <= 4'h9;
+				end
 				if(pos_y == 3'b110) begin
 					if (pos_jogador != bol_pos_x) begin
 					lost <= 1'b1;

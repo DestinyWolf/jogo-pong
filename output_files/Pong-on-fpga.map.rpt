@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Pong-on-fpga
-Mon Jul 21 09:48:34 2025
+Mon Jul 21 10:07:40 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -15,40 +15,39 @@ Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. User-Specified and Inferred Latches
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Port Connectivity Checks: "matriz:matrix|flip_t:ff0"
- 14. Port Connectivity Checks: "matriz:matrix"
- 15. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft24"
- 16. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft23"
- 17. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft22"
- 18. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft21"
- 19. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft20"
- 20. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft19"
- 21. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft18"
- 22. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft17"
- 23. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft16"
- 24. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft15"
- 25. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft14"
- 26. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft13"
- 27. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft12"
- 28. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft11"
- 29. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft10"
- 30. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft9"
- 31. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft8"
- 32. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft7"
- 33. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft6"
- 34. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft5"
- 35. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft4"
- 36. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft3"
- 37. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft2"
- 38. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft1"
- 39. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft0"
- 40. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div"
- 41. Post-Synthesis Netlist Statistics for Top Partition
- 42. Elapsed Time Per Partition
- 43. Analysis & Synthesis Messages
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Port Connectivity Checks: "matriz:matrix|flip_t:ff0"
+ 13. Port Connectivity Checks: "matriz:matrix"
+ 14. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft24"
+ 15. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft23"
+ 16. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft22"
+ 17. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft21"
+ 18. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft20"
+ 19. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft19"
+ 20. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft18"
+ 21. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft17"
+ 22. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft16"
+ 23. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft15"
+ 24. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft14"
+ 25. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft13"
+ 26. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft12"
+ 27. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft11"
+ 28. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft10"
+ 29. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft9"
+ 30. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft8"
+ 31. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft7"
+ 32. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft6"
+ 33. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft5"
+ 34. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft4"
+ 35. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft3"
+ 36. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft2"
+ 37. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft1"
+ 38. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div|flip_t:fft0"
+ 39. Port Connectivity Checks: "divisor_de_frequencia:main_clk_div"
+ 40. Post-Synthesis Netlist Statistics for Top Partition
+ 41. Elapsed Time Per Partition
+ 42. Analysis & Synthesis Messages
 
 
 
@@ -75,15 +74,15 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Jul 21 09:48:34 2025           ;
+; Analysis & Synthesis Status        ; Successful - Mon Jul 21 10:07:40 2025           ;
 ; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; Pong-on-fpga                                    ;
 ; Top-level Entity Name              ; main                                            ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 137                                             ;
-;     Total combinational functions  ; 134                                             ;
-;     Dedicated logic registers      ; 84                                              ;
-; Total registers                    ; 84                                              ;
+; Total logic elements               ; 157                                             ;
+;     Total combinational functions  ; 154                                             ;
+;     Dedicated logic registers      ; 88                                              ;
+; Total registers                    ; 88                                              ;
 ; Total pins                         ; 44                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
@@ -216,30 +215,30 @@ on the Quartus Prime software download page.
 +---------------------------------------------+---------------+
 ; Resource                                    ; Usage         ;
 +---------------------------------------------+---------------+
-; Estimated Total logic elements              ; 137           ;
+; Estimated Total logic elements              ; 157           ;
 ;                                             ;               ;
-; Total combinational functions               ; 134           ;
+; Total combinational functions               ; 154           ;
 ; Logic element usage by number of LUT inputs ;               ;
-;     -- 4 input functions                    ; 58            ;
-;     -- 3 input functions                    ; 31            ;
-;     -- <=2 input functions                  ; 45            ;
+;     -- 4 input functions                    ; 74            ;
+;     -- 3 input functions                    ; 28            ;
+;     -- <=2 input functions                  ; 52            ;
 ;                                             ;               ;
 ; Logic elements by mode                      ;               ;
-;     -- normal mode                          ; 128           ;
+;     -- normal mode                          ; 148           ;
 ;     -- arithmetic mode                      ; 6             ;
 ;                                             ;               ;
-; Total registers                             ; 84            ;
-;     -- Dedicated logic registers            ; 84            ;
+; Total registers                             ; 88            ;
+;     -- Dedicated logic registers            ; 88            ;
 ;     -- I/O registers                        ; 0             ;
 ;                                             ;               ;
 ; I/O pins                                    ; 44            ;
 ;                                             ;               ;
 ; Embedded Multiplier 9-bit elements          ; 0             ;
 ;                                             ;               ;
-; Maximum fan-out node                        ; game_state[0] ;
-; Maximum fan-out                             ; 36            ;
-; Total fan-out                               ; 671           ;
-; Average fan-out                             ; 2.19          ;
+; Maximum fan-out node                        ; game_state[1] ;
+; Maximum fan-out                             ; 41            ;
+; Total fan-out                               ; 768           ;
+; Average fan-out                             ; 2.33          ;
 +---------------------------------------------+---------------+
 
 
@@ -248,15 +247,15 @@ on the Quartus Prime software download page.
 +-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------+-----------------------+--------------+
 ; Compilation Hierarchy Node              ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                   ; Entity Name           ; Library Name ;
 +-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------+-----------------------+--------------+
-; |main                                   ; 134 (74)            ; 84 (33)                   ; 0           ; 0            ; 0       ; 0         ; 44   ; 0            ; |main                                                 ; main                  ; work         ;
+; |main                                   ; 154 (92)            ; 88 (37)                   ; 0           ; 0            ; 0       ; 0         ; 44   ; 0            ; |main                                                 ; main                  ; work         ;
 ;    |count_3b:bol_counter_x|             ; 3 (3)               ; 3 (3)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|count_3b:bol_counter_x                          ; count_3b              ; work         ;
-;    |count_3b:counter_jogador|           ; 5 (5)               ; 3 (3)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|count_3b:counter_jogador                        ; count_3b              ; work         ;
+;    |count_3b:counter_jogador|           ; 6 (6)               ; 3 (3)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|count_3b:counter_jogador                        ; count_3b              ; work         ;
 ;    |count_3b:pos_bol_y|                 ; 3 (3)               ; 3 (3)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|count_3b:pos_bol_y                              ; count_3b              ; work         ;
 ;    |dbouncer:db1|                       ; 1 (1)               ; 1 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db1                                    ; dbouncer              ; work         ;
 ;       |flip_d:flip1|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db1|flip_d:flip1                       ; flip_d                ; work         ;
 ;    |dbouncer:db2|                       ; 1 (1)               ; 1 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db2                                    ; dbouncer              ; work         ;
 ;       |flip_d:flip1|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db2|flip_d:flip1                       ; flip_d                ; work         ;
-;    |dbouncer:db3|                       ; 0 (0)               ; 1 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db3                                    ; dbouncer              ; work         ;
+;    |dbouncer:db3|                       ; 1 (1)               ; 1 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db3                                    ; dbouncer              ; work         ;
 ;       |flip_d:flip1|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|dbouncer:db3|flip_d:flip1                       ; flip_d                ; work         ;
 ;    |divisor_de_frequencia:main_clk_div| ; 24 (0)              ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:main_clk_div              ; divisor_de_frequencia ; work         ;
 ;       |flip_t:fft0|                     ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|divisor_de_frequencia:main_clk_div|flip_t:fft0  ; flip_t                ; work         ;
@@ -309,21 +308,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Register name                         ; Reason for Removal                     ;
 +---------------------------------------+----------------------------------------+
 ; matriz:matrix|linha_out[0]            ; Stuck at GND due to stuck port data_in ;
-; count[1,2]                            ; Stuck at GND due to stuck port data_in ;
-; count[0]                              ; Stuck at VCC due to stuck port data_in ;
-; linhas[0]~reg0                        ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 5 ;                                        ;
+; Total Number of Removed Registers = 1 ;                                        ;
 +---------------------------------------+----------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                     ;
-+----------------------------+---------------------------+----------------------------------------+
-; Register name              ; Reason for Removal        ; Registers Removed due to This Register ;
-+----------------------------+---------------------------+----------------------------------------+
-; matriz:matrix|linha_out[0] ; Stuck at GND              ; linhas[0]~reg0                         ;
-;                            ; due to stuck port data_in ;                                        ;
-+----------------------------+---------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -331,12 +317,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 84    ;
-; Number of registers using Synchronous Clear  ; 14    ;
-; Number of registers using Synchronous Load   ; 0     ;
+; Total registers                              ; 88    ;
+; Number of registers using Synchronous Clear  ; 15    ;
+; Number of registers using Synchronous Load   ; 7     ;
 ; Number of registers using Asynchronous Clear ; 6     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 27    ;
+; Number of registers using Clock Enable       ; 31    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -348,7 +334,10 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
 ; 8:1                ; 6 bits    ; 30 LEs        ; 18 LEs               ; 12 LEs                 ; Yes        ; |main|matriz:matrix|linha_out[0] ;
 ; 6:1                ; 13 bits   ; 52 LEs        ; 26 LEs               ; 26 LEs                 ; Yes        ; |main|linhas[0]~reg0             ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 2 LEs                ; 6 LEs                  ; Yes        ; |main|count[0]                   ;
 ; 13:1               ; 6 bits    ; 48 LEs        ; 6 LEs                ; 42 LEs                 ; Yes        ; |main|matriz:matrix|linha_out[2] ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |main|decimal                    ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |main|points                     ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |main|unit                       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
 
@@ -669,24 +658,23 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 44                          ;
-; cycloneiii_ff         ; 84                          ;
+; cycloneiii_ff         ; 88                          ;
 ;     CLR               ; 6                           ;
-;     ENA               ; 13                          ;
-;     ENA SCLR          ; 14                          ;
+;     ENA               ; 16                          ;
+;     ENA SCLR          ; 8                           ;
+;     ENA SCLR SLD      ; 7                           ;
 ;     plain             ; 51                          ;
-; cycloneiii_lcell_comb ; 147                         ;
+; cycloneiii_lcell_comb ; 166                         ;
 ;     arith             ; 6                           ;
-;         2 data inputs ; 5                           ;
-;         3 data inputs ; 1                           ;
-;     normal            ; 141                         ;
-;         0 data inputs ; 1                           ;
+;         2 data inputs ; 6                           ;
+;     normal            ; 160                         ;
 ;         1 data inputs ; 41                          ;
-;         2 data inputs ; 11                          ;
-;         3 data inputs ; 30                          ;
-;         4 data inputs ; 58                          ;
+;         2 data inputs ; 17                          ;
+;         3 data inputs ; 28                          ;
+;         4 data inputs ; 74                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 3.60                        ;
-; Average LUT depth     ; 1.86                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 1.81                        ;
 +-----------------------+-----------------------------+
 
 
@@ -705,7 +693,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
-    Info: Processing started: Mon Jul 21 09:48:25 2025
+    Info: Processing started: Mon Jul 21 10:07:31 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Pong-on-fpga -c Pong-on-fpga
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -727,8 +715,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file aux_mod
     Info (12023): Found entity 1: flip_t File: /home/kake/Documentos/jogo-pong/aux_modules/flip_t.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/flip_d.v
     Info (12023): Found entity 1: flip_d File: /home/kake/Documentos/jogo-pong/aux_modules/flip_d.v Line: 1
-Warning (10229): Verilog HDL Expression warning at main.v(195): truncated literal to match 1 bits File: /home/kake/Documentos/jogo-pong/main.v Line: 195
-Warning (10229): Verilog HDL Expression warning at main.v(198): truncated literal to match 1 bits File: /home/kake/Documentos/jogo-pong/main.v Line: 198
 Info (12021): Found 1 design units, including 1 entities, in source file main.v
     Info (12023): Found entity 1: main File: /home/kake/Documentos/jogo-pong/main.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file aux_modules/matriz.v
@@ -737,14 +723,14 @@ Info (12127): Elaborating entity "main" for the top level hierarchy
 Warning (10036): Verilog HDL or VHDL warning at main.v(23): object "rst_y" assigned a value but never read File: /home/kake/Documentos/jogo-pong/main.v Line: 23
 Warning (10858): Verilog HDL warning at main.v(25): object bol_pos_y used but never assigned File: /home/kake/Documentos/jogo-pong/main.v Line: 25
 Warning (10036): Verilog HDL or VHDL warning at main.v(101): object "clk_to_count" assigned a value but never read File: /home/kake/Documentos/jogo-pong/main.v Line: 101
-Warning (10230): Verilog HDL assignment warning at main.v(152): truncated value with size 32 to match size of target (2) File: /home/kake/Documentos/jogo-pong/main.v Line: 152
-Warning (10230): Verilog HDL assignment warning at main.v(154): truncated value with size 32 to match size of target (2) File: /home/kake/Documentos/jogo-pong/main.v Line: 154
-Warning (10230): Verilog HDL assignment warning at main.v(201): truncated value with size 32 to match size of target (3) File: /home/kake/Documentos/jogo-pong/main.v Line: 201
-Warning (10230): Verilog HDL assignment warning at main.v(244): truncated value with size 32 to match size of target (7) File: /home/kake/Documentos/jogo-pong/main.v Line: 244
-Warning (10230): Verilog HDL assignment warning at main.v(245): truncated value with size 32 to match size of target (4) File: /home/kake/Documentos/jogo-pong/main.v Line: 245
-Warning (10230): Verilog HDL assignment warning at main.v(249): truncated value with size 32 to match size of target (4) File: /home/kake/Documentos/jogo-pong/main.v Line: 249
-Warning (10235): Verilog HDL Always Construct warning at main.v(276): variable "unit" is read inside the Always Construct but isn't in the Always Construct's Event Control File: /home/kake/Documentos/jogo-pong/main.v Line: 276
-Warning (10235): Verilog HDL Always Construct warning at main.v(312): variable "decimal" is read inside the Always Construct but isn't in the Always Construct's Event Control File: /home/kake/Documentos/jogo-pong/main.v Line: 312
+Warning (10230): Verilog HDL assignment warning at main.v(159): truncated value with size 32 to match size of target (2) File: /home/kake/Documentos/jogo-pong/main.v Line: 159
+Warning (10230): Verilog HDL assignment warning at main.v(161): truncated value with size 32 to match size of target (2) File: /home/kake/Documentos/jogo-pong/main.v Line: 161
+Warning (10230): Verilog HDL assignment warning at main.v(209): truncated value with size 32 to match size of target (3) File: /home/kake/Documentos/jogo-pong/main.v Line: 209
+Warning (10230): Verilog HDL assignment warning at main.v(257): truncated value with size 32 to match size of target (7) File: /home/kake/Documentos/jogo-pong/main.v Line: 257
+Warning (10230): Verilog HDL assignment warning at main.v(258): truncated value with size 32 to match size of target (4) File: /home/kake/Documentos/jogo-pong/main.v Line: 258
+Warning (10230): Verilog HDL assignment warning at main.v(262): truncated value with size 32 to match size of target (4) File: /home/kake/Documentos/jogo-pong/main.v Line: 262
+Warning (10235): Verilog HDL Always Construct warning at main.v(289): variable "unit" is read inside the Always Construct but isn't in the Always Construct's Event Control File: /home/kake/Documentos/jogo-pong/main.v Line: 289
+Warning (10235): Verilog HDL Always Construct warning at main.v(325): variable "decimal" is read inside the Always Construct but isn't in the Always Construct's Event Control File: /home/kake/Documentos/jogo-pong/main.v Line: 325
 Info (10041): Inferred latch for "inc_x" at main.v(113) File: /home/kake/Documentos/jogo-pong/main.v Line: 113
 Info (10041): Inferred latch for "sentido" at main.v(79) File: /home/kake/Documentos/jogo-pong/main.v Line: 79
 Info (12128): Elaborating entity "dbouncer" for hierarchy "dbouncer:db1" File: /home/kake/Documentos/jogo-pong/main.v Line: 53
@@ -756,12 +742,10 @@ Warning (10230): Verilog HDL assignment warning at count_3b.v(12): truncated val
 Warning (10230): Verilog HDL assignment warning at count_3b.v(14): truncated value with size 32 to match size of target (3) File: /home/kake/Documentos/jogo-pong/aux_modules/count_3b.v Line: 14
 Info (12128): Elaborating entity "matriz" for hierarchy "matriz:matrix" File: /home/kake/Documentos/jogo-pong/main.v Line: 127
 Warning (12241): 25 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "linhas[0]" is stuck at GND File: /home/kake/Documentos/jogo-pong/main.v Line: 137
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 12 input pin(s) that do not drive logic
+Warning (21074): Design contains 11 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "btn[3]" File: /home/kake/Documentos/jogo-pong/main.v Line: 13
     Warning (15610): No output dependent on input pin "btn[4]" File: /home/kake/Documentos/jogo-pong/main.v Line: 13
     Warning (15610): No output dependent on input pin "btn[5]" File: /home/kake/Documentos/jogo-pong/main.v Line: 13
@@ -773,14 +757,13 @@ Warning (21074): Design contains 12 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "btn[11]" File: /home/kake/Documentos/jogo-pong/main.v Line: 13
     Warning (15610): No output dependent on input pin "sw[0]" File: /home/kake/Documentos/jogo-pong/main.v Line: 14
     Warning (15610): No output dependent on input pin "sw[1]" File: /home/kake/Documentos/jogo-pong/main.v Line: 14
-    Warning (15610): No output dependent on input pin "sw[2]" File: /home/kake/Documentos/jogo-pong/main.v Line: 14
-Info (21057): Implemented 181 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 201 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 17 input pins
     Info (21059): Implemented 27 output pins
-    Info (21061): Implemented 137 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 32 warnings
+    Info (21061): Implemented 157 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
     Info: Peak virtual memory: 426 megabytes
-    Info: Processing ended: Mon Jul 21 09:48:34 2025
+    Info: Processing ended: Mon Jul 21 10:07:40 2025
     Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:25
 

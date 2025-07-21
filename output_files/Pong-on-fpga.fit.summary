@@ -1,14 +1,14 @@
-Fitter Status : Successful - Mon Jul 21 09:48:41 2025
+Fitter Status : Successful - Mon Jul 21 10:07:47 2025
 Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 Revision Name : Pong-on-fpga
 Top-level Entity Name : main
 Family : Cyclone IV E
 Device : EP4CE30F23C7
 Timing Models : Final
-Total logic elements : 168 / 28,848 ( < 1 % )
-    Total combinational functions : 134 / 28,848 ( < 1 % )
-    Dedicated logic registers : 84 / 28,848 ( < 1 % )
-Total registers : 84
+Total logic elements : 195 / 28,848 ( < 1 % )
+    Total combinational functions : 154 / 28,848 ( < 1 % )
+    Dedicated logic registers : 88 / 28,848 ( < 1 % )
+Total registers : 88
 Total pins : 44 / 329 ( 13 % )
 Total virtual pins : 0
 Total memory bits : 0 / 608,256 ( 0 % )
